@@ -5,7 +5,7 @@
 [iOS demonstration](https://twitter.com/jankais3r/status/1361964226148003842)
 
 # What is this?
-[Unicode](http://www.unicode.org/faq/basic_q.html) is complicated. The result is that there are multiple ways to encode certain glyphs (e.g. letters). These are then identical to the human eye, but completely different to the computer that is rendering them on the screen or processing them in any way. This repository contains modified US keyboard layout for macOS and Windows that lets you type in this special mode. Nothing you type using this keyboard layout will make sense to language processing algorithms. I am also providing a Python script that let's you create your own layout if you prefer using something other than the US layout.
+[Unicode](http://www.unicode.org/faq/basic_q.html) is complicated. The result is that there are multiple ways to encode certain glyphs (e.g. letters). These are then identical to the human eye, but completely different to the computer that is rendering them on the screen or processing them in any way. This repository contains modified US keyboard layout for macOS, Windows, and iOS that lets you type in this special mode. Nothing you type using this keyboard layout will make sense to language processing algorithms. I am also providing a Python script that let's you create your own layout if you prefer using something other than the US layout.
 
 
 # What is the purpose?
@@ -35,7 +35,7 @@ I got inspired to make these after I stumbled upon [Dystextia](https://eclecticl
 
 # How to create your own layouts:
 ## Windows:
-1) Download, install and launch [Microsoft Keyboard Layout Creator](https://www.microsoft.com/en-us/download/details.aspx?id=22339)
+1) Download, install and launch [Microsoft Keyboard Layout Creator](https://www.microsoft.com/en-us/download/details.aspx?id=102134)
 2) Go to File > Load Existing Keyboard, select the desired layout (e.g. UK)
 3) Go to File > Save Source File As…, click Yes, enter the keyboard details
 4) Run the Python script provided in this repo
